@@ -1,0 +1,87 @@
+
+body{
+
+	/* background-color: #06060f; */
+	/*background-image: linear-gradient(20deg, white, tan);*/
+	background-image: url('ThanksUniverse2.png');
+	/*opacity: 0.5;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: brown;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	text-shadow: 0 0 3px yellow;
+	font-family: sans-serif;
+	/*overflow: hidden;*/
+	
+	}
+
+	button, .btn, submit, input, label{
+		/*position: relative;*/
+		float: left;
+	font-size: 25px;
+	font-family: sans-serif;
+		border-radius: 10px;
+		opacity: 0.6;
+		/*text-shadow: 0 0 1px yellow;"*/
+	color: brown;
+	background-image: linear-gradient(20deg, sandybrown, tan);
+	/*border-color: transparent;*/
+		margin-top: 10px;
+	}
+
+	h1{
+		font-size: 35px;
+		margin-top: -5px;
+	}
+	span{
+		color: orange;
+	}
+	nav a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color: brown;
+		font-size: 30px;
+		font-weight: 600;
+		padding:0 5px;
+		margin:0 10px;
+		position: relative;
+	}
+	
+	nav a:hover{
+		color: red;
+	}
+	nav a::before{
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		width: 0%;
+		height: 3px;
+		background-color: brown;
+		transition: all .5s ;
+	}
+	nav a:hover::before{
+		width: 100%;
+		
+	}
+	h2{
+		font-size: 50px;
+		/* margin-top: -100px; */
+	}
+	span{
+		color: red;
+	}
+	p{
+		font-size: 25px;
+		/* margin-top: -100px; */
+		margin: 15px;
+	}
+	ul{
+		font-size: 20px;
+		color: #5c4c42;
+	}
+	
